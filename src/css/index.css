@@ -42,7 +42,7 @@ body {
 }
 
 .intro_text {
-  padding: 15vh 20em 4em 3em;
+  padding: 15vh 20em 2em 3em;
   font-weight: bolder;
   font-size: 20px;
   line-height: 1.4;
@@ -86,11 +86,45 @@ input {
   width: 20em;
   height: 2em;
   border-radius: 5px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 input:focus {
   outline: none;
   box-shadow: 0 2px 5px lightgray;
   border: rgb(223, 200, 245) solid 2px;
+}
+
+#match_confirm {
+  margin-left: 10px;
+}
+
+input:not(:placeholder-shown):invalid {
+  border: red solid 2px;
+}
+
+.submit_section {
+  margin: 3rem 3rem;
+}
+
+#form_submit {
+  padding: 10px 20px;
+  height: 3rem;
+  width: 12rem;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 2px 5px lightgray;
+  transition: 0.1s;
+  margin-bottom: 2rem;
+}
+
+#form_submit:active {
+  transform: scale(0.9);
+}
+
+.log_in {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
 }
