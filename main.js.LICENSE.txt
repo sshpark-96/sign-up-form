@@ -1,4 +1,6 @@
-/*! !!../../node_modules/css-loader/dist/cjs.js!./style.css */
+/*! !!../../node_modules/css-loader/dist/cjs.js!./default.css */
+
+/*! !!../../node_modules/css-loader/dist/cjs.js!./index.css */
 
 /*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
 
@@ -14,21 +16,51 @@
 
 /*! ../../node_modules/css-loader/dist/runtime/api.js */
 
+/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */
+
 /*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */
 
-/*! ./css/style.css */
+/*! ../font/Roboto/Roboto-Regular.ttf */
+
+/*! ../img/v2osk-1Z2niiBPg5A-unsplash (1).jpg */
+
+/*! ./css/default.css */
+
+/*! ./css/index.css */
+
+/*! ./img/Not Sketchy-logos_white.png */
 
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 
 /*!***************************!*\
-  !*** ./src/css/style.css ***!
+  !*** ./src/css/index.css ***!
   \***************************/
+
+/*!*****************************!*\
+  !*** ./src/css/default.css ***!
+  \*****************************/
+
+/*!********************************************!*\
+  !*** ./src/font/Roboto/Roboto-Regular.ttf ***!
+  \********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/img/Not Sketchy-logos_white.png ***!
+  \*********************************************/
+
+/*!****************************************************!*\
+  !*** ./src/img/v2osk-1Z2niiBPg5A-unsplash (1).jpg ***!
+  \****************************************************/
 
 /*!*****************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/api.js ***!
   \*****************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
 
 /*!************************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/sourceMaps.js ***!
@@ -39,8 +71,12 @@
   \***************************************************************/
 
 /*!*****************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/style.css ***!
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/index.css ***!
   \*****************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/default.css ***!
+  \*******************************************************************/
 
 /*!********************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!
