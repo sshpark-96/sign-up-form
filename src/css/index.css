@@ -1,0 +1,96 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../font/Roboto/Roboto-Regular.ttf");
+}
+
+/**************************    START OF PAGE CSS    ***********************************/
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  background-image: url("../img/v2osk-1Z2niiBPg5A-unsplash\ \(1\).jpg");
+  background-size: cover;
+}
+
+.logo_pic {
+  width: 45%;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_area {
+  width: 100%;
+  height: 40vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-height: 200%;
+}
+
+.main_content {
+  width: 55%;
+  height: 100vh;
+  background-color: rgb(253, 249, 249);
+  font-family: "Roboto";
+}
+
+.intro_text {
+  padding: 15vh 20em 4em 3em;
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.intro_text span {
+  max-width: 50px;
+}
+
+.form_section {
+  background-color: white;
+  box-shadow: 0px 3px 5px -2px gray;
+  padding: 0 4em 2rem 4rem;
+}
+
+.form_section p {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 1em 0;
+}
+
+.form_section form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form_section form > * {
+  width: 35%;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  font-size: 11px;
+  color: black;
+}
+
+input {
+  border: #e5e7eb solid 2px;
+  width: 20em;
+  height: 2em;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 2px 5px lightgray;
+  border: rgb(223, 200, 245) solid 2px;
+}
